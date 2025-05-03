@@ -1,0 +1,116 @@
+.dashboard-container {
+  padding: 20px;
+}
+.dashboard-container .container {
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 30px 28px;
+  border-radius: 4px;
+}
+.dashboard-container .container .tableBar {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.dashboard-container .container .tableBox {
+  width: 100%;
+  border: solid 2px #f3f4f7;
+  border-radius: 2px;
+}
+
+.dashboard-container .container .tableBox .el-image img {
+  width: 40px;
+  border-radius: 5px;
+}
+
+.dashboard-container .container .pageList {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.dashboard-container .container .tableLab .span-btn {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 20px;
+  color: #818693;
+  border-right: solid 1px #d8dde3;
+}
+
+.dashboard-container .container .tableLab .el-button {
+  margin-left: 10px;
+}
+
+.el-table-column--selection .cell {
+  padding-left: 10px;
+}
+
+/* 添加 */
+.addBrand-container .avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.addBrand-container .avatar-uploader .el-upload:hover {
+  border-color: #409eff;
+}
+.addBrand-container .avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 200px;
+  height: 160px;
+  line-height: 160px;
+  text-align: center;
+}
+.addBrand-container .avatar {
+  width: 160px;
+  height: 160px;
+  display: block;
+}
+.addBrand-container .el-form--inline .el-form-item__content {
+  width: 293px;
+}
+.addBrand-container .el-input {
+  width: 293px;
+}
+
+.addBrand-container {
+  margin: 30px;
+}
+.addBrand-container .container {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  padding: 30px;
+  border-radius: 4px;
+  min-height: 500px;
+}
+.addBrand-container .container .subBox {
+  padding-top: 30px;
+  text-align: center;
+  border-top: solid 1px #f3f4f7;
+}
+
+
+.addBrand-container .address .el-form-item__content {
+  width: 777px !important;
+}
+
+.el-button--text {
+  font-weight: 400 !important;
+  font-size: 13px !important;
+}
+
+.el-table td {
+  font-size: 13px !important;
+}
+
+.el-table .cell,
+.el-table th div,
+.el-table--border td:first-child .cell,
+.el-table--border th:first-child .cell {
+  padding-left: 12px;
+}
